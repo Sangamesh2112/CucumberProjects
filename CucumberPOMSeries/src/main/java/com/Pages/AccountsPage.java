@@ -40,11 +40,4 @@ public class AccountsPage {
 		return  accountsList;
 	}
 	
-	
-	
-	
-	
-	
-	
-	
 }

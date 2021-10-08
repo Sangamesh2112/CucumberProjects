@@ -12,6 +12,7 @@ public class DriverFactory {
 	
 	public WebDriver driver;
 	 
+	//For Parallel Running of Scenarios
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 	
 	/**

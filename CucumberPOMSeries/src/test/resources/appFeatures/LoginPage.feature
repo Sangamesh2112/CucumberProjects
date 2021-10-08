@@ -1,3 +1,4 @@
+@All
 Feature: Login Page Feature
 
 

@@ -20,7 +20,7 @@ public class LoginPage {
 		this.driver = driver;
 	}
 	
-	//3.Page Actions : Features(behaviour) of the page the form of the methods:
+	//3.Page Actions : Features(behavior) of the page the form of the methods:
 	public String getLoginPageTitle()
 	{
 		return driver.getTitle();

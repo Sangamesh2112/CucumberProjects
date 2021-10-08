@@ -18,7 +18,7 @@ public class ConfigReader {
 		prop = new Properties();
 		try
 		{
-		FileInputStream ip= new FileInputStream("./src/test/resources/config/config.properties");
+		FileInputStream ip= new FileInputStream("./src/test/resources/config/config.properties"); // For Reading config Properties
 		prop.load(ip);
 		}
 		catch(FileNotFoundException e)

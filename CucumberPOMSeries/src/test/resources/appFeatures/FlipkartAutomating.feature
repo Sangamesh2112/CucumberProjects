@@ -3,7 +3,7 @@ Feature: Search a Product
 Background: 
 Given User is Already on the page
 
-
+@Ui 
 Scenario: Verify Page title 
 Given User on Flipkart page
 When User gets the title of the Page 

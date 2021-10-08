@@ -31,7 +31,7 @@ public class ApplicationHooks {
 	public void launchBrowser() {
 		String browserName = prop.getProperty("browser");
 		driverFactory = new DriverFactory();
-		driver = driverFactory.init_driver(browserName);
+		driver = driverFactory.init_driver(browserName); //Initiallization of Browser
 
 	}
 
