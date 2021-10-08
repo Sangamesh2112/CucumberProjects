@@ -15,7 +15,7 @@ import io.cucumber.java.en.Then;
 
 public class accountsPageSteps {
 
-	private LoginPage loginpage = new LoginPage(DriverFactory.getDriver()); //For LoginPage Driver 
+	private LoginPage loginpage = new LoginPage(DriverFactory.getDriver()); 
 	private AccountsPage accountsPage;
 	
 	@Given("User has already Logged into the Page")

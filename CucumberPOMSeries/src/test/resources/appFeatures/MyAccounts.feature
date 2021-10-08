@@ -6,7 +6,7 @@ Given User has already Logged into the Page
 | username | password |
 | dec2020secondbatch@gmail.com | Selenium@12345 |
 
-@Unit 
+
 Scenario: Accounts Page title 
 Given User is on Accounts Page 
 When user gets the title of the page 

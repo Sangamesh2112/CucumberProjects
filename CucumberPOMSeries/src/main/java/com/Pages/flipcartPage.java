@@ -15,7 +15,7 @@ public class flipcartPage {
 	private WebDriver driver;
 	
 	
-	//Locators of flipkart Pages
+	//Locators 
 	private By searchBar = By.name("q");
 	private By ProductName = By.xpath("//div[text()='APPLE iPhone 12 (Blue, 64 GB)']");
 	private By addTocart = By.xpath("//button[text()='ADD TO CART']");

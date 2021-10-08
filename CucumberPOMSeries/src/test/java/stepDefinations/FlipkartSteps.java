@@ -52,7 +52,7 @@ public class FlipkartSteps {
 		Assert.assertTrue(ActualTitle.equals(ExpectedTitle));
 	}
 
-	//2nd Scenarios
+	//2nd Scenario
 
 	  @Given("verify the search bar is displayed") 
 	  public void verify_the_search_bar_is_displayed() throws InterruptedException 

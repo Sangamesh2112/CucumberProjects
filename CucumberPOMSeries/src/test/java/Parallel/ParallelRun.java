@@ -7,7 +7,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 
-// For TestNG Parallel Running of Scripts
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = {"src/test/resources/Parallel"},
