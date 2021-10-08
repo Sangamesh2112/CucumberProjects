@@ -76,7 +76,7 @@ public class LoginPageSteps {
 
 	@When("user clicks on Login button")
 	public void user_clicks_on_login_button() throws InterruptedException {
-	    loginpage.clickOnLogin(); 
+	    loginpage.clickOnLogin(); //
 	    Thread.sleep(2000);
 	}
 
